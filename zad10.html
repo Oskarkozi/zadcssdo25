@@ -1,0 +1,60 @@
+<DOCTYPE HTML>
+
+	<html>
+	
+		<head>
+			<meta charset="utf-8">
+		</head>
+		<body>
+		<ol>
+		<li>
+		<h1>Dwa typy selektorów</h1>
+		</li>
+		&nbsp;&nbsp;&nbsp;<b><u>Rodzaj pierwszy</u></b><br>
+		<b>Selektory proste nazywany inaczej selektor typu<b><br>
+		<textarea cols="15" rows="15">
+			p
+			{
+			color:red;
+			font-size:14pt;
+			}
+		</textarea><br>
+		<textarea cols="40" rows="30">
+		Selektorem prostym jest znaczniki języka XHTML/HTML 
+		(np. p, h3, table, img) przypisany do elementu,
+		który chcesz w danym momencie formatować.
+		Styl zdefiniowany dla przykładowego selektora p będzie 
+		odnosił się wyłączniedo akapitów zamkniętych w 
+		znacznikach <p></p> i nie będzie wpływał na pozostałe elementy strony WWW.
+		</textarea><br>
+		&nbsp;&nbsp;&nbsp;<b><u>Rodzaj drugi</u></b><br>
+		<b>Selektor uniwersalny</b><br>
+		<textarea cols="40" rows="20">
+		Składnia teoretyczna:
+* { cecha: wartość }
+Cecha (ang. property) oraz wartość (ang. value) określają atrybuty elementu.
+Selektor taki pozwala ustalić określone atrybuty dla wszystkich elementów strony, a więc dla różnych selektorów typu.
+ Możemy za pomocą tej komendy nadać to samo formatowanie dla wszystkich elementów na całej stronie, niezależnie od ich typu (p, h1, li itd.).
+		</textarea><br><li>
+		<h1>Znaczenie nawiasów klamrowych</h1></li>
+		<b>Deklaracja jest umieszczona w nawiasie klamrowym {...} i podaje to formatowanie.</b>
+		<p>
+		Każda deklaracja składa się z: przynajmniej z jednego zespołu cecha lub inaczej własność albo właściwość (ang. property) wartość (ang. value), przy czym można podać dowolną liczbę, rozdzielając kolejne znakiem średnika (;).
+Średnik na końcu deklaracji nie jest konieczny.
+		</p><br>
+		<li><h1>Cechy</h1></li>
+		Każda grupa elementów (znaczników np. <&nbspbody> <&nbspp> <&nbspb>) ma określony zespół cech CSS, które można jej przypisać.
+Każda cecha ma ściśle wyszczególnioną listę wartości, które może przyjąć.
+Na przykład: cecha text-align (wyrównanie tekstu) może być przypisana tylko i wyłącznie do elementów blokowych,
+ ponieważ podanie jej dla elementów wyświetlanych w linii nie miałoby sensu. Z drugiej strony cecha ta może przyjmować tylko wartości takie jak:
+ left, right, center, justify. Przypisanie do niej np. wartości koloru nie miałoby sensu.>
+ <br>
+ <li><h1>Wartości</h1></li>
+ Każda właściwość (ang. property = właściwość, atrybut, cecha) określa jakiś aspekt wyglądu elementu, zaś wartość tego atrybutu (ang. value) zapisana jest po dwukropku i zakończona średnikiem.
+ 
+ <li><h1>Kiedy stosujemy znak średnika (;), kiedy nie jest konieczny</h1></li>
+ wartość (ang. value), przy czym można podać dowolną liczbę, rozdzielając kolejne znakiem średnika (;).
+Średnik na końcu deklaracji nie jest konieczny.
+ </ol>
+		</body>
+	</html>

@@ -1,0 +1,38 @@
+p#pogrubienie_kozinski {
+	font-size:33px;
+	color:#905ACE;
+	font-weight:bold;
+}
+
+
+p#pochylona{
+	font-size:38px;
+	color:#F4BE6A;
+	font-style:italic;
+}
+
+p#index_gorny_kozinski{
+	font-size:1.3cm;
+	color:#A48C1A;
+	vertical-align:super;
+}
+
+p#index_dolny_kozinski{
+	font-size:2.1cm;
+	color:RGB(22%, 91%, 80%);
+	vertical-align:sub;
+}
+
+p#mono_kozinski{
+	color:#24DC6A;
+	font-size: 43px;
+}
+
+p#powiekszenie_kozinski{
+	color:#5E3C9C;
+	
+}
+
+p#pomniejszenie_kozinski{
+	color: RGB(70%, 61%, 19%);
+}
